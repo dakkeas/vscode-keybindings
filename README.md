@@ -1,2 +1,3 @@
 # vscode-keybindings
-My personal keybindings
+
+Personal Keybindings using Vim extension
