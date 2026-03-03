@@ -25,13 +25,35 @@
     "command": "workbench.action.terminal.kill",
     "when": "terminalFocus"
   },
+  {
+    "key": "ctrl+j",
+    "command": "workbench.action.quickOpenSelectNext",
+    "when": "inQuickOpen"
+  },
+  {
+      "key": "ctrl+k",
+      "command": "workbench.action.quickOpenSelectPrevious",
+      "when": "inQuickOpen"
+  },
+  {
+    "key": "ctrl+j",
+    "command": "selectNextSuggestion",
+    "when": "suggestWidgetVisible"
+},
+{
+    "key": "ctrl+k",
+    "command": "selectPrevSuggestion",
+    "when": "suggestWidgetVisible"
+},
+
+
   // FILE TREE
   {
     "command": "workbench.action.toggleSidebarVisibility",
     "key": "ctrl+e"
   },
   {
-    "command": "workbench.files.action.focusFilesExplorer",
+    "command": "explorer.newFile",
     "key": "ctrl+e",
     "when": "editorTextFocus"
   },
@@ -50,11 +72,11 @@
     "command": "explorer.newFolder",
     "when": "explorerViewletFocus"
   },
-  {
-    "key": "shift+n",
-    "command": "workbench.action.newWindow",
-    "when": "!explorerViewletFocus"
-  },
+  // {
+  //   "key": "shift+n",
+  //   "command": "workbench.action.newWindow",
+  //   "when": "!explorerViewletFocus"
+  // },
   {
     "command": "deleteFile",
     "key": "d",
@@ -66,8 +88,8 @@
     "key": "ctrl+shift+5",
     "command": "editor.emmet.action.matchTag"
   },
-  {
-    "key": "ctrl+z",
-    "command": "workbench.action.toggleZenMode"
-  }
+  // {
+  //   "key": "ctrl+z",
+  //   "command": "workbench.action.toggleZenMode"
+  // }
 ]// Place your key bindings in this file to override the defaults auto[]
