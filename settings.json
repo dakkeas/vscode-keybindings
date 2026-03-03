@@ -30,6 +30,15 @@
   "vim.normalModeKeyBindingsNonRecursive": [
     {
       "before": [
+        "leader",
+        "`"
+      ],
+      "commands": [
+        "workbench.action.terminal.toggleTerminal"
+      ]
+    },
+    {
+      "before": [
         "<C-n>"
       ],
       "after": [],
@@ -69,7 +78,7 @@
     },
     {
       "before": [
-        "leader",
+        "neader",
         "s"
       ],
       "commands": [
